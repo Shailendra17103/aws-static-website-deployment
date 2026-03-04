@@ -1,0 +1,82 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+text-align:center;
+}
+
+/* Main Container */
+
+.container{
+margin-top:80px;
+padding:30px;
+}
+
+/* Title */
+
+h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+/* Subtitle */
+
+.subtitle{
+font-size:18px;
+margin-bottom:40px;
+opacity:0.9;
+}
+
+/* Button */
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:#ff9800;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+background:#ff5722;
+}
+
+/* Features Section */
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:60px;
+flex-wrap:wrap;
+}
+
+/* Cards */
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:12px;
+width:250px;
+backdrop-filter: blur(10px);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,0.2);
+}
+
+/* Footer */
+
+footer{
+margin-top:80px;
+padding:20px;
+font-size:14px;
+background:rgba(0,0,0,0.2);
+}
